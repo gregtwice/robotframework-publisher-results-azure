@@ -10,7 +10,7 @@ import shutil
 from shutil import Error
 import os
 class AzureTestPlansClient:
-    def __init__(self, azure_url_project, token, version='6.0-preview.2'):
+    def __init__(self, azure_url_project, token, version='6.0'):
         self.version = version
         self.azure_url_project = azure_url_project
         self.headers = {'Content-Type': 'application/json'}
