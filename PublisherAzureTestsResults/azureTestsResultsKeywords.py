@@ -5,7 +5,6 @@ from robot.api import ExecutionResult
 from .suiteResults import SuiteResults
 from .azureTestPlansClient import AzureTestPlansClient
 from .formatterPayloadAzure import FormatterPayloadAzure
-from utils import *
 from datetime import datetime
 from .logger import logger
 from .variables import VariablesBuiltIn

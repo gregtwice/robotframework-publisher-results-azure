@@ -20,7 +20,6 @@ setup(
   packages=find_packages(),
   install_requires=[
     'robotframework>=3.2.2',
-    'requests',
-    'utils'
+    'requests'
   ] 
 )
